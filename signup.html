@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='bootstrap.css'>
+    <link rel="stylesheet" type='text/css' media='screen' href="style2.css">
+    <link rel="stylesheet" href="bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
+    <script src="bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <button id="backup" class="backup"><i class="fas fa-sort-up"></i></button> -->
+                <nav class="navbar">
+                  <div><img class="navbarlogo" src="./imgs/letter-s.png">
+                  </img></div>
+                  <h1 class="navbarTitle" > Souq.Com </h1>
+
+                    <div class="navbarbtns">
+                      <button id="home" class="navbarbtn">
+                        <i class="fad fa-home"></i>
+                        Home
+                      </button>
+                      <button id="aboutus" class="navbarbtn">
+                        <i class="fad fa-info"></i>
+                        About Us
+                      </button>
+                      <button id="contactus" class="navbarbtn">
+                        <i class="fas fa-phone-alt"></i>
+                        Contact Us
+                      </button>
+                    </div>
+
+                    <div class="navbarDropDowndiv">
+                    <button class="navbarDropDown">
+                      <h2> <i class="fad fa-th-list"></i></h2> 
+                        <div class="drop-down-menu">
+                            <h6 id="home2"><i class="fad fa-home"></i>Home</h6>
+                            <h6 id="contactus2"><i class="fas fa-phone-alt"></i>Contact Us</h6>
+                            <h6 id="aboutus2"><i class="fad fa-info"></i>About Us</h6>
+                        </div>
+                    </button>
+                  </div>
+
+                </nav>    
+                
+
+                <h1 class="logTitle" > Souq.Com </h1>
+                    <div class="logindiv">
+                        
+                        <div>
+                            <h5>Email</h5>
+                            <input id="Email" type="email">
+                            <span id="EmailErorr" class="Erorr"> <i class="fas fa-exclamation-circle"></i>Please enter a valid email address(Must contain a Domain) !!! </span>
+                        </div>
+                        <div>
+                            <h5>Password</h5>
+                            <input id="password" type="password">
+                            <span id="passwordErorr" class="Erorr"><i class="fas fa-exclamation-circle"></i>Password must be(more than 8 && contains uppercase letter and Numbers)  !!</span>
+                        </div>
+
+                        <div>
+                          <h5>Confirm password</h5>
+                          <input id="Confirmpassword" type="password">
+                          <span id="ConfirmpasswordErorr" class="Erorr"><i class="fas fa-exclamation-circle"></i>Dose not match !!</span>
+                      </div>
+
+
+                        <button id="signUpConfirm" class="signAndLog">
+                          Sign Up
+                         </button>
+
+
+                    </div>
+
+            <footer>
+
+            <div class="lastfooterSection">
+              <div class="footerContent1">
+                <h5>Terms of Service Privacy Policy © 2024, Souq.com Services LLC.</h5>
+              </div>
+              <div class="footerContentlast">
+               <h5><i class="fab fa-facebook"></i></h5>
+               <h5><i class="fab fa-twitter-square"></i></h5>
+               <h5><i class="fab fa-linkedin"></i></h5>
+               <h5><i class="fab fa-youtube"></i></h5>
+               <h5><i class="fab fa-instagram"></i></h5>
+              </div>
+            </div>
+
+            </footer>
+
+       <script type="module" src="./signup.js"></script>    
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
+
+</body>
+</html>

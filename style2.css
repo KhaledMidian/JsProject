@@ -1,0 +1,435 @@
+body
+{
+    padding: 0%;
+    margin: 0%;
+    min-height: 100%;
+    width: 100%;
+}
+
+#allCost
+{
+    width: 120px;
+    height: 25px;
+    padding-bottom: 5px;
+    background-color: #ffffff;
+    color: #103243 ;
+    border-radius: 4px;
+}
+
+.Cost
+{
+    margin: 5%;
+    display: inline;
+    font-weight:800 ;
+}
+
+#products
+{
+    width: 100%;
+    min-height: 433px;
+}
+.backup
+{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #103243;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in;
+    z-index: 3;
+
+}
+
+.navbar
+{
+    background-color: #040D12;
+    color: antiquewhite;
+    height: 80px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    opacity: .8;
+    box-shadow:0px 10px 5px #000000;
+}
+.navbarlogo
+{
+    width: 50px;
+    height: 50%;
+    margin-left: 20px;
+}
+.navbarbtns
+{
+    margin-left: 0%;
+    width: auto;
+}
+.navbarbtn
+{
+    margin-left: 20px;
+    background-color: #040D12;
+    border: 0px;
+    color: antiquewhite;
+    font-size: large;
+}
+
+.navbarTitle
+{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+.navbarcart
+{
+    background-color: #040D12;
+    border: 0px;
+    color: antiquewhite;
+    font-size: large;
+    margin-right: 40px;
+}
+
+.navbarDropDown
+{
+    background-color: #040D12;
+    border: 0px;
+    color: antiquewhite;
+    font-size: large;
+    margin-right: 40px;
+    margin-top: 20%;
+    display: none;
+    position: relative;
+}
+
+
+.drop-down-menu
+{
+    width: 200px;
+    border-radius: 10px;
+    background-color:#040D12;
+    display: none;
+    margin: 20px;
+    box-shadow:3px 3px 7px;
+    position: absolute;
+    left: -300%;
+    top:100%;
+    z-index: 1;
+}
+
+.dropdownbtn
+{
+    margin-left: 20px;
+    background-color: #040D12;
+    border: 0px;
+    color: antiquewhite;
+    font-size: large;
+}
+
+
+.navbarDropDowndiv
+{
+    height: 100%;
+}
+
+@media (max-width: 768px) 
+{
+
+
+
+.navbarDropDown
+{
+    
+    display:inline-block;
+}
+
+
+.navbarDropDown:hover .drop-down-menu
+{
+    display: block;
+}
+.navbarDropDowndiv:hover .drop-down-menu
+{
+    display: block;
+}
+
+.drop-down-menu:hover .drop-down-menu
+{
+    display: block;
+}
+.navbarbtns
+{
+    display: none;
+}
+.navbarbtn
+{
+    display: none;
+}
+
+.navbarcart
+{
+    display: none;
+}
+
+.backup
+{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #103243;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in;
+    z-index: 3;
+}
+.categoriesGoodInfo
+{
+    width: 50%;
+    display: inline-block;
+    height: 80%;
+}
+}
+
+input
+{
+    width: 95%;
+    border-radius: 5px;
+}
+
+.Erorr
+{
+    color: red;
+    display: none;
+}
+.logTitle
+{
+    text-align: center;
+    margin: 20px;
+}
+
+.logindiv
+{
+    width: 40%;
+    height: 80%;
+    margin: 5% 30%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5% 0%;
+}
+
+
+.categoriesGoods
+{
+    margin: 5%;
+}
+.categoriesGoodInfo
+{
+    width: 70%;
+    display: inline-block;
+    height: 80%;
+}
+.goodcard
+{
+    width: 27%;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.MoreInfocard
+{
+    width: 20%;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.MoreInfoImg
+{
+    width: 90%;
+    height: 150px;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.goodImg
+{
+    width: 90%;
+    height: 100px;
+    border-radius: 10px;
+    align-self: center;
+}
+.goodInfo
+{
+    text-align: center;
+    margin-bottom: 20%;
+}
+.addToCart
+{
+    border: 0px;
+    color:antiquewhite;
+    font-size: large;
+    font-weight: 500;
+    margin:10px 3% ;
+    background-color: #040D12;
+    border-radius: 10px;
+}
+
+
+.signAndLog
+{
+    border: 0px;
+    color:antiquewhite;
+    font-size: large;
+    font-weight: 500;
+    margin:10px 3% ;
+    background-color: #040D12;
+    border-radius: 10px;
+}
+
+
+.MoreInfo
+{
+    border: 0px;
+    color:antiquewhite;
+    font-size: large;
+    font-weight: 500;
+    margin:10px 3% ;
+    background-color: #040D12;
+    border-radius: 10px;
+}
+
+footer
+{
+    background-color: #040D12;
+    color: antiquewhite;
+    height: px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+.footerSection
+{
+    border-bottom: 2px solid #ffffff;
+    width: 90%;
+    margin: 5%;
+}
+
+h5
+{
+display: inline-block;
+margin-left: 20px;
+
+}
+
+.footerContent1
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: large;
+}
+.footerContent2
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: large;
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.footerContent3
+{
+    padding-left: 40px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.footerContentlast
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: large;
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+.lastfooterSection
+{
+    width: 90%;
+    padding-left: 40px;
+
+}
+
+
+header {
+    background-color: #040D12;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+p {
+    line-height: 1.6;
+}
+
+.about-image
+{
+    width: 50%;
+    height: 20%;
+    display: inline-block;
+}
+
+#aboutUsImage
+{
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+
+
+}
+
+.text-section
+{
+    width: 40%;
+    height: 20%;
+    display: inline-block;
+}
+.image-text-section
+{
+    margin-top: 50px;
+}
+
+#form-div
+{
+    margin: 3%;
+    min-height: 433px;
+}
+
+#phone-error
+{
+    display: none;
+}
+#email-error
+{
+    display: none;
+}

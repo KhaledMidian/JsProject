@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='bootstrap.css'>
+    <link rel="stylesheet" type='text/css' media='screen' href="style2.css">
+    <link rel="stylesheet" href="bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+                <nav class="navbar">
+                  <div><img class="navbarlogo" src="./imgs/letter-s.png">
+                  </img></div>
+                  <h1 class="navbarTitle" > Souq.Com </h1>
+
+                    <div class="navbarbtns">
+                      <button id="home" class="navbarbtn">
+                        <i class="fad fa-home"></i>
+                        Home
+                      </button>
+                      <button id="aboutus" class="navbarbtn">
+                        <i class="fad fa-info"></i>
+                        About Us
+                      </button>
+                    </div>
+
+                    <div class="navbarDropDowndiv">
+                    <button class="navbarDropDown">
+                      <h2> <i class="fad fa-th-list"></i></h2> 
+                        <div class="drop-down-menu">
+                            <h6 id="home2"><i class="fad fa-home"></i>Home</h6>
+                            <h6 id="aboutus2"><i class="fad fa-info"></i>About Us</h6>
+                           
+                        </div>
+                    </button>
+                  </div>
+
+                </nav>    
+                
+
+                <div id="form-div">
+                    
+                <form>
+
+                
+                        <div class="row m-3">
+                          <div class="col">
+                            <label>First name</label>
+                            <input type="text" class="form-control" placeholder="First name">
+                          </div>
+                          
+                          <div class="col">
+                             <label>Last name</label>
+                            <input type="text" class="form-control" placeholder="Last name">
+                          </div>
+                        </div>
+                      
+
+                    <div class="row m-3">
+                      <label >Email address</label>
+                      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="email-error" class="form-text text-muted"><i class="fas fa-exclamation-circle"></i>Please enter a valid email address(Must contain a Domain) !!</small>
+                    
+                      <label >Phone Number</label>
+                      <input type="number" class="form-control" id="Phone-Number" aria-describedby="Phone" placeholder="Enter your Phone Number">
+                      <small id="phone-error" class="form-text text-muted"><i class="fas fa-exclamation-circle"></i>Please enter 11 numbers (Must start with 01)!!</small>
+                    </div>
+                    
+
+                    <div class="row m-3">
+                        <label >Location</label>
+                        <div class="col-7">
+                            <input type="text" class="form-control" placeholder="City">
+                          </div>
+                        
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="State">
+                          </div>
+
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Zip">
+                          </div>
+
+                          <label>Description</label>
+                        <textarea class="form-control" id="validationTextarea" placeholder="Required Description" required></textarea>
+                      </div>
+
+
+                      <div class="col-md-12 bg-light text-right">
+                      <button id="Contact-Us-btn" class="btn btn-primary" type="submit">Contact Us</button>
+                      </div>
+                      
+
+                  </form>
+
+
+                </div>
+
+            <footer>
+
+            <div class="lastfooterSection">
+              <div class="footerContent1">
+                <h5>Terms of Service Privacy Policy © 2024, Souq.com Services LLC.</h5>
+              </div>
+              <div class="footerContentlast">
+               <h5><i class="fab fa-facebook"></i></h5>
+               <h5><i class="fab fa-twitter-square"></i></h5>
+               <h5><i class="fab fa-linkedin"></i></h5>
+               <h5><i class="fab fa-youtube"></i></h5>
+               <h5><i class="fab fa-instagram"></i></h5>
+              </div>
+            </div>
+
+            </footer>
+
+       <script type="module" src="./contactus.js"></script> 
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.all.min.js"></script>
+
+</body>
+</html>

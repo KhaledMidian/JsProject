@@ -1,0 +1,524 @@
+{
+  "products": [
+   [
+    {
+      "supplyID": 1,
+      "name": "Car Wash Kit",
+      "brand": "Meguiar's",
+      "description": "Complete car wash kit with shampoo, wax, and accessories.",
+      "price": 50.99,
+      "image": "https://m.media-amazon.com/images/I/81cmraLv46L._AC_SY550_.jpg"
+    },
+    {
+      "supplyID": 2,
+      "name": "Seat Covers Set",
+      "brand": "FH Group",
+      "description": "Universal fit seat covers to protect and enhance your car interior.",
+      "price": 29.95,
+      "image": "https://m.media-amazon.com/images/I/71+boliCjKL._AC_SX425_.jpg"
+    },
+    {
+      "supplyID": 3,
+      "name": "Portable Vacuum Cleaner",
+      "brand": "BLACK+DECKER",
+      "description": "Compact and powerful vacuum cleaner for car interior cleaning.Xuptor Portable Car Vacuum Cleaner High Power 120W/9000Pa Cordless Mini Handheld Vacuum Cleaner Auto Accessories Kit for Detailing and Cleaning Car Interior Black",
+      "price": 39.99,
+      "image": "https://m.media-amazon.com/images/I/61NZANwwFzS._AC_SX425_.jpg"
+    },
+    {
+      "supplyID": 4,
+      "name": "Tire Inflator",
+      "brand": "EPAuto",
+      "description": "Digital tire inflator for convenient and accurate tire pressure maintenance.Superdrive, Air Compressor, Portable Tire Inflator,12V, 160psi,with LED Light,1 Cylinder",
+      "price": 32.99,
+      "image": "https://m.media-amazon.com/images/I/71Zx-YKcAkL._AC_SX425_.jpg"
+    },
+    {
+      "supplyID": 5,
+      "name": "Car Floor Mats",
+      "brand": "WeatherTech",
+      "description": "All-weather floor mats to protect your car's interior from dirt and spills.Bosch wiper blade aerotwin ap20u, length: 500mm - single front wiper blade",
+      "price": 74.95,
+      "image": "https://m.media-amazon.com/images/I/61DRi-qgqgL._AC_UL320_.jpg"
+    },
+    {
+      "supplyID": 6,
+      "name": "Windshield Wipers",
+      "brand": "Bosch",
+      "description": "High-quality windshield wipers for clear visibility during rain or snow.Bosch wiper blade aerotwin ap20u, length: 500mm - single front wiper blade",
+      "price": 18.99,
+      "image": "https://m.media-amazon.com/images/I/71+XaNEJAbL._AC_UL320_.jpg"
+    },
+    {
+      "supplyID": 7,
+      "name": "Car Air Freshener",
+      "brand": "Febreze",
+      "description": "Long-lasting car air freshener with a variety of scents.Aroma France Gel Jar Black Long Lasting Air Freshener For Car, Home, And Office (Made In Poland)",
+      "price": 8.49,
+      "image": "https://m.media-amazon.com/images/I/51wZUAK-IhL._AC_UL320_.jpg"
+    },
+    {
+      "supplyID": 8,
+      "name": "Car Polish",
+      "brand": "Turtle Wax",
+      "description": "Premium car polish for a shiny and protected finish.Ionic Nano Ceramic and Wax Protection - Car Shine and Paint Protection - Car Care",
+      "price": 19.99,
+      "image": "https://m.media-amazon.com/images/I/81IkY4RSFAL._AC_UL320_.jpg"
+    },
+    {
+      "supplyID": 9,
+      "name": "Jump Starter",
+      "brand": "NOCO",
+      "description": "Compact jump starter for emergency battery boosts.Powerful Jump starter 50800 mAh with air compressor",
+      "price": 79.95,
+      "image": "https://m.media-amazon.com/images/I/41YqbLWrlkS._AC_UL320_.jpg"
+    }
+   ],
+   [
+    {
+      "supplyID": 1,
+      "name": "Kid's Sneakers",
+      "brand": "Nike",
+      "description": "Durable and stylish sneakers for kids, perfect for active play.",
+      "size": "US 3",
+      "color": "Black",
+      "price": 34.99,
+      "image": "https://m.media-amazon.com/images/I/41XN8tru9VL._AC_SL1000_.jpg"
+    },
+    {
+      "supplyID": 2,
+      "name": "Winter Jacket",
+      "brand": "The North Face",
+      "description": "Insulated winter jacket for adults, designed to keep you warm in cold weather.",
+      "size": "Large",
+      "color": "Red",
+      "price": 89.99,
+      "image": "/imgs/cloth/fashion-shoes-sneaker.jpg"
+    },
+    {
+      "supplyID": 3,
+      "name": "Running Shorts",
+      "brand": "Adidas",
+      "description": "Lightweight and breathable running shorts for active individuals.",
+      "size": "Small",
+      "color": "Gray",
+      "price": 19.95,
+      "image": "/imgs/cloth/mens-jecket.jpg"
+    },
+    {
+      "supplyID": 4,
+      "name": "Casual Dress",
+      "brand": "Forever 21",
+      "description": "Versatile and stylish casual dress for women suitable for various occasions.",
+      "size": "Medium",
+      "color": "Black",
+      "price": 29.99,
+      "image": "/imgs/cloth/shop37_product4.jpg"
+    },
+    {
+      "supplyID": 5,
+      "name": "Summer Hat",
+      "brand": "Roxy",
+      "description": "Stylish summer hat for women, perfect for sun protection.",
+      "size": "One Size",
+      "color": "Beige",
+      "price": 22.95,
+      "image": "/imgs/cloth/shop37_product7.jpg"
+    },
+    {
+      "supplyID": 6,
+      "name": "Men's Polo Shirt",
+      "brand": "Ralph Lauren",
+      "description": "Classic men's polo shirt with the iconic Ralph Lauren logo.",
+      "size": "Large",
+      "color": "Navy Blue",
+      "price": 44.50,
+      "image": "/imgs/cloth/shop37_product10.jpg"
+    },
+    {
+      "supplyID": 7,
+      "name": "Men's T-Shirt",
+      "brand": "Hanes",
+      "description": "Classic crewneck men's t-shirt made from comfortable cotton fabric.",
+      "size": "Medium",
+      "color": "White",
+      "price": 12.99,
+      "image": "/imgs/cloth/shop37_product13.jpg"
+    },
+    {
+      "supplyID": 8,
+      "name": "Running Shorts",
+      "brand": "Adidas",
+      "description": "Lightweight and breathable running shorts for active individuals.",
+      "size": "Small",
+      "color": "Gray",
+      "price": 19.95,
+      "image": "/imgs/cloth/shop37_product15.jpg"
+    },
+    {
+      "supplyID": 9,
+      "name": "Women's Jeans",
+      "brand": "Levi's",
+      "description": "High-rise skinny jeans for women with a trendy and comfortable fit.",
+      "size": "28/32",
+      "color": "Blue",
+      "price": 49.95,
+      "image": "/imgs/cloth/shop37_product16-1.jpg"
+    }
+   ],
+   [
+    {
+      "supplyID": 1,
+      "name": "Phone Case",
+      "brand": "OtterBox",
+      "description": "Durable phone case with rugged protection for various smartphone models.",
+      "compatibleModels": ["iPhone 12", "Samsung Galaxy S21", "Google Pixel 5"],
+      "color": "Black",
+      "price": 24.99,
+      "image": "/imgs/phone/insta-item3.jpg"
+    },
+    {
+      "supplyID": 2,
+      "name": "Wireless Charger",
+      "brand": "Anker",
+      "description": "Fast wireless charger for convenient and efficient charging of compatible smartphones.",
+      "compatibleModels": ["iPhone 11", "Samsung Galaxy Note 20", "Google Pixel 4a"],
+      "color": "White",
+      "price": 29.95,
+      "image": "/imgs/phone/insta-item4.jpg"
+    },
+    {
+      "supplyID": 3,
+      "name": "Bluetooth Earbuds",
+      "brand": "Apple",
+      "description": "True wireless Bluetooth earbuds with active noise cancellation and comfortable fit.",
+      "compatibleModels": ["iPhone 13", "iPad Pro", "Apple Watch Series 7"],
+      "color": "Space Gray",
+      "price": 159.00,
+      "image": "/imgs/phone/p7_dd9c198a-6656-4739-9bee-40b506ba7a8c.jpg"
+    },
+    {
+      "supplyID": 4,
+      "name": "Phone Stand",
+      "brand": "UGREEN",
+      "description": "Adjustable phone stand for hands-free viewing and video calls.",
+      "compatibleModels": ["Samsung Galaxy S20", "Google Pixel 3a", "OnePlus 9"],
+      "color": "Silver",
+      "price": 12.99,
+      "image": "/imgs/phone/product-item1.jpg"
+    },
+    {
+      "supplyID": 5,
+      "name": "Screen Protector",
+      "brand": "ZAGG",
+      "description": "Tempered glass screen protector for protecting smartphone screens from scratches and cracks.",
+      "compatibleModels": ["iPhone SE", "Google Pixel 6", "Samsung Galaxy A52"],
+      "color": "Clear",
+      "price": 14.99,
+      "image": "/imgs/phone/product-item2.jpg"
+    },
+    {
+      "supplyID": 6,
+      "name": "Power Bank",
+      "brand": "RAVPower",
+      "description": "High-capacity portable power bank for charging smartphones on the go.",
+      "compatibleModels": ["iPhone XR", "Samsung Galaxy S10", "OnePlus 8"],
+      "color": "Black",
+      "price": 34.99,
+      "image": "/imgs/phone/product-item3.jpg"
+    },
+    {
+      "supplyID": 7,
+      "name": "Car Phone Mount",
+      "brand": "iOttie",
+      "description": "Secure and adjustable car phone mount for hands-free navigation while driving.",
+      "compatibleModels": ["iPhone X", "Google Pixel 5a", "Samsung Galaxy Note 10"],
+      "color": "Red",
+      "price": 24.95,
+      "image": "/imgs/phone/product-item4.jpg"
+    },
+    {
+      "supplyID": 8,
+      "name": "USB-C Cable",
+      "brand": "Anker",
+      "description": "Durable and fast-charging USB-C cable for various Android and iOS devices.",
+      "compatibleModels": ["Samsung Galaxy S9", "iPhone 8", "Google Pixel 2"],
+      "color": "Blue",
+      "price": 9.99,
+      "image": "/imgs/phone/p12_2a7606d0-fa58-46ea-ac4e-eae86976dd08.jpg"
+    },
+    {
+      "supplyID": 9,
+      "name": "Smartphone Camera Lens Kit",
+      "brand": "Moment",
+      "description": "High-quality lens kit for enhancing smartphone photography capabilities.",
+      "compatibleModels": ["iPhone 12 Pro", "Samsung Galaxy S21 Ultra", "Google Pixel 5"],
+      "color": "Gold",
+      "price": 149.99,  
+      "image": "/imgs/phone/p3.jpg"
+    }
+   ],
+   [
+    {
+      "supplyID": 1,
+      "name": "Laptop",
+      "brand": "Dell",
+      "description": "Powerful laptop with a high-resolution display, Intel Core i7 processor, and ample storage.",
+      "ram": "16GB",
+      "storage": "512GB SSD",
+      "color": "Silver",
+      "price": 1299.99,
+      "image": "/imgs/pcs/pro12_300X350_crop_center.jpg"
+    },
+    {
+      "supplyID": 2,
+      "name": "Wireless Mouse",
+      "brand": "Logitech",
+      "description": "Ergonomic wireless mouse with customizable buttons and precision tracking.",
+      "color": "Black",
+      "price": 39.95,
+      "image": "/imgs/pcs/pro39_300X350_crop_center.jpg"
+    },
+    {
+      "supplyID": 3,
+      "name": "Smartwatch",
+      "brand": "Apple",
+      "description": "Feature-packed smartwatch with health monitoring, GPS, and seamless integration with iOS devices.",
+      "color": "Space Gray",
+      "price": 349.00,
+      "image": "/imgs/pcs/pro7_767bbe8e-0b76-4faa-944f-21f5efc9600b_300X350_crop_center.jpg"
+    },
+    {
+      "supplyID": 4,
+      "name": "Noise-Canceling Headphones",
+      "brand": "Sony",
+      "description": "Premium over-ear headphones with industry-leading noise-canceling technology and high-quality audio.",
+      "color": "Silver",
+      "price": 299.99,
+      "image": "/imgs/pcs/shop34_product1.jpeg"
+    },
+    {
+      "supplyID": 5,
+      "name": "Portable Bluetooth Speaker",
+      "brand": "JBL",
+      "description": "Compact and waterproof Bluetooth speaker with powerful sound for on-the-go entertainment.",
+      "color": "Blue",
+      "price": 79.99,
+      "image": "/imgs/pcs/pro20_300X350_crop_center.jpg"
+    },
+    {
+      "supplyID": 6,
+      "name": "External Hard Drive",
+      "brand": "Seagate",
+      "description": "High-capacity external hard drive for secure backup and additional storage.",
+      "storage": "2TB",
+      "color": "Black",
+      "price": 79.95,
+      "image": "/imgs/pcs/pro31_eacb8fbe-be63-4404-8e9f-5297769290b7_300X350_crop_center.jpg"
+    },
+    {
+      "supplyID": 7,
+      "name": "Mechanical Gaming Keyboard",
+      "brand": "Corsair",
+      "description": "RGB-backlit mechanical gaming keyboard with customizable keys for an immersive gaming experience.",
+      "color": "RGB",
+      "price": 129.99,
+      "image": "/imgs/pcs/pro36_20b3e4a6-54ec-42a8-a760-3f40b78c2bc9_300X350_crop_center.jpg"
+    },
+    {
+      "supplyID": 8,
+      "name": "Webcam",
+      "brand": "Logitech",
+      "description": "HD webcam with autofocus for crystal-clear video conferencing and streaming.",
+      "resolution": "1080p",
+      "color": "Black",
+      "price": 69.99,
+      "image": "/imgs/pcs/insta-item5.jpg"
+    },
+    {
+      "supplyID": 9,
+      "name": "Mesh Wi-Fi System",
+      "brand": "Google",
+      "description": "Whole-home mesh Wi-Fi system for seamless internet coverage in every room.",
+      "coverage": "Up to 4500 sq. ft.",
+      "color": "White",
+      "price": 199.00,
+      "image": "/imgs/pcs/pro11_eca584c8-e1e1-404d-996d-af35cc9909c2_300X350_crop_center.jpg"
+    }
+   ],
+   [
+    {
+      "itemID": 1,
+      "name": "Sofa",
+      "style": "Modern",
+      "color": "Gray",
+      "material": "Fabric",
+      "dimensions": "84\"W x 36\"D x 30\"H",
+      "price": 599.99,
+      "image": "/imgs/fer/1-330x396.jpg"
+    },
+    {
+      "itemID": 2,
+      "name": "Dining Table",
+      "style": "Farmhouse",
+      "color": "Walnut",
+      "material": "Wood",
+      "dimensions": "72\"L x 36\"W x 30\"H",
+      "price": 349.95,
+      "image": "/imgs/fer/6-330x396.jpg"
+    },
+    {
+      "itemID": 3,
+      "name": "Bed Frame",
+      "style": "Mid-Century Modern",
+      "color": "Dark Oak",
+      "material": "Wood",
+      "dimensions": "Queen Size",
+      "price": 499.99,
+      "image": "/imgs/fer/7-330x396.jpg"
+    },
+    {
+      "itemID": 4,
+      "name": "Bookshelf",
+      "style": "Contemporary",
+      "color": "White",
+      "material": "Particle Board",
+      "dimensions": "48\"W x 12\"D x 72\"H",
+      "price": 129.99,
+      "image": "/imgs/fer/18-330x396.jpg"
+    },
+    {
+      "itemID": 5,
+      "name": "Coffee Table",
+      "style": "Industrial",
+      "color": "Metallic Black",
+      "material": "Metal and Glass",
+      "dimensions": "36\"L x 24\"W x 18\"H",
+      "price": 89.95,
+      "image": "/imgs/fer/21-330x396.jpg"
+    },
+    {"itemID": 6,
+    "name": "Wardrobe",
+    "style": "Classic",
+    "color": "Cherrywood",
+    "material": "Solid Wood",
+    "dimensions": "36\"W x 24\"D x 72\"H",
+    "price": 299.99,
+      "image": "/imgs/fer/22-330x396.jpg"
+    },
+    {
+      "itemID": 7,
+      "name": "Desk",
+      "style": "Scandinavian",
+      "color": "Natural Oak",
+      "material": "MDF",
+      "dimensions": "48\"W x 24\"D x 30\"H",
+      "price": 179.99,
+      "image": "/imgs/fer/30-330x396.jpg"
+    },
+    {
+      "itemID": 8,
+      "name": "Accent Chair",
+      "style": "Vintage",
+      "color": "Teal",
+      "material": "Velvet",
+      "dimensions": "30\"W x 32\"D x 34\"H",
+      "price": 219.95,
+      "image": "/imgs/fer/32-330x396.jpg"
+    },
+    {
+      "itemID": 9,
+      "name": "Nightstand",
+      "style": "Traditional",
+      "color": "Espresso",
+      "material": "Wood",
+      "dimensions": "24\"W x 18\"D x 24\"H",
+      "price": 79.99,
+      "image": "/imgs/fer/id1-img1.jpg"
+    }
+   ],
+   [
+    {
+      "supplyID": 1,
+      "name": "Basketball",
+      "brand": "Nike",
+      "description": "Official-size basketball with durable rubber cover for indoor and outdoor play.",
+      "color": "Orange",
+      "price": 29.99,
+      "image": "/imgs/sports/2019_Marrakesh_Deore_Blue-uc-3_360x.jpg"
+    },
+    {
+      "supplyID": 2,
+      "name": "Running Shoes",
+      "brand": "Adidas",
+      "description": "High-performance running shoes with cushioning and support for various terrains.",
+      "color": "Black/White",
+      "price": 79.95,
+      "image": "/imgs/sports/Warbird_Ultegra_Zebra-uc-3_360x.jpg"
+    },
+    {
+      "supplyID": 3,
+      "name": "Yoga Mat",
+      "brand": "Liforme",
+      "description": "Premium yoga mat with non-slip surface and alignment guide for yoga practitioners.",
+      "color": "Purple",
+      "price": 89.99,
+      "image": "/imgs/sports/shop27_product-1.jpg"
+    },
+    {
+      "supplyID": 4,
+      "name": "Dumbbell Set",
+      "brand": "Bowflex",
+      "description": "Adjustable dumbbell set with multiple weight options for versatile strength training.",
+      "color": "Black/Red",
+      "price": 199.99,
+      "image": "/imgs/sports/shop18_product15.jpeg"
+    },
+    {
+      "supplyID": 5,
+      "name": "Cycling Helmet",
+      "brand": "Giro",
+      "description": "Safety-certified cycling helmet with adjustable fit and ventilation for comfortable rides.",
+      "color": "Blue",
+      "price": 69.95,
+      "image": "/imgs/sports/shop18_product12.jpeg"
+    },
+    {
+      "supplyID": 6,
+      "name": "Fitness Tracker",
+      "brand": "Fitbit",
+      "description": "Advanced fitness tracker with heart rate monitoring, sleep tracking, and built-in GPS.",
+      "color": "Rose Gold",
+      "price": 149.99,
+      "image": "/imgs/sports/shop18_product8.jpeg"
+    },
+    {
+      "supplyID": 7,
+      "name": "Tennis Racket",
+      "brand": "Wilson",
+      "description": "Professional-grade tennis racket for enhanced control and power on the court.",
+      "color": "White/Black",
+      "price": 129.95,
+      "image": "/imgs/sports/shop18_product5_1.jpeg"
+    },
+    {
+      "supplyID": 8,
+      "name": "Resistance Bands Set",
+      "brand": "TheraBand",
+      "description": "Set of resistance bands for effective strength training and rehabilitation exercises.",
+      "color": "Assorted",
+      "price": 24.99,
+      "image": "/imgs/sports/shop18_product1.jpeg"
+    },
+    {
+      "supplyID": 9,
+      "name": "Soccer Ball",
+      "brand": "Adidas",
+      "description": "FIFA-approved soccer ball with high-quality construction for optimal performance.",
+      "color": "Green/White",
+      "price": 39.99,
+      "image": "/imgs/sports/shop18_product3.jpeg"
+    }
+   ]
+  ]
+}
